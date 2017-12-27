@@ -1,0 +1,1169 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-14 16:57+0200\n"
+"PO-Revision-Date: 2017-12-14 16:57+0200\n"
+"Last-Translator: \n"
+"Language-Team: WPBakery <hello@wpbakery.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;esc_attr__;esc_attr_e;"
+"esc_html_x;_x;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: ci\n"
+
+#: Helpers/EditorTemplates.php:66
+msgid "My Templates"
+msgstr ""
+
+#: Helpers/EditorTemplates.php:69
+msgid "Premium Templates"
+msgstr ""
+
+#: Helpers/EditorTemplates.php:72
+msgid "Templates"
+msgstr ""
+
+#: Helpers/Hub/Bundle.php:146 Helpers/Hub/Bundle.php:348
+msgid "Failed to read remote bundle json #10006"
+msgstr ""
+
+#: Helpers/Hub/Bundle.php:170
+msgid "Failed to fetch remote bundle json #10008"
+msgstr ""
+
+#: Helpers/Hub/Download.php:27
+msgid "Editor bundle"
+msgstr ""
+
+#: Helpers/Hub/Download.php:30
+msgid "Categories bundle"
+msgstr ""
+
+#: Helpers/Hub/Download.php:33
+msgid "Library extensions"
+msgstr ""
+
+#: Helpers/Hub/Download.php:36
+msgid "Templates library"
+msgstr ""
+
+#: Helpers/License.php:187
+msgid "Visual Composer Website Builder license has expired."
+msgstr ""
+
+#: Helpers/License.php:190
+msgid "Couldn't find a valid Visual Composer Website Builder license."
+msgstr ""
+
+#: Helpers/License.php:193
+msgid "Visual Composer Website Builder license has been deactivated."
+msgstr ""
+
+#: Helpers/Localizations.php:24
+msgid "Add Element"
+msgstr ""
+
+#: Helpers/Localizations.php:25
+msgid "Hub"
+msgstr ""
+
+#: Helpers/Localizations.php:26
+msgid "Add Template"
+msgstr ""
+
+#: Helpers/Localizations.php:27
+msgid "Tree View"
+msgstr ""
+
+#: Helpers/Localizations.php:28
+msgid "Undo"
+msgstr ""
+
+#: Helpers/Localizations.php:29
+msgid "Redo"
+msgstr ""
+
+#: Helpers/Localizations.php:30
+msgid "Responsive View"
+msgstr ""
+
+#: Helpers/Localizations.php:31
+msgid "Desktop"
+msgstr ""
+
+#: Helpers/Localizations.php:32
+msgid "Tablet Landscape"
+msgstr ""
+
+#: Helpers/Localizations.php:33
+msgid "Tablet Portrait"
+msgstr ""
+
+#: Helpers/Localizations.php:34
+msgid "Mobile Landscape"
+msgstr ""
+
+#: Helpers/Localizations.php:35
+msgid "Mobile Portrait"
+msgstr ""
+
+#: Helpers/Localizations.php:36 Modules/Settings/Pages/Settings.php:59
+#: resources/views/settings/layouts/settings-standalone.php:11
+msgid "Settings"
+msgstr ""
+
+#: Helpers/Localizations.php:37 Modules/Hub/Download/Pages/UpdateBePage.php:84
+msgid "Update"
+msgstr ""
+
+#: Helpers/Localizations.php:38
+msgid "Menu"
+msgstr ""
+
+#: Helpers/Localizations.php:39
+msgid "View Page"
+msgstr ""
+
+#: Helpers/Localizations.php:40
+msgid "Edit in Backend Editor"
+msgstr ""
+
+#: Helpers/Localizations.php:41
+msgid "WordPress Dashboard"
+msgstr ""
+
+#: Helpers/Localizations.php:42
+msgid "Publish"
+msgstr ""
+
+#: Helpers/Localizations.php:43
+msgid "Submit for Review"
+msgstr ""
+
+#: Helpers/Localizations.php:44
+msgid "Save Draft"
+msgstr ""
+
+#: Helpers/Localizations.php:45 Helpers/Localizations.php:47
+#: Helpers/Localizations.php:48 Helpers/Localizations.php:49
+#: Modules/Premium/Pages/GetPremium.php:116
+#: Modules/Premium/Pages/GetPremium.php:153
+#: Modules/Premium/Pages/Premium.php:84
+msgid "Go Premium"
+msgstr ""
+
+#: Helpers/Localizations.php:46
+msgid "Close"
+msgstr ""
+
+#: Helpers/Localizations.php:51
+msgid "There is no content on your page - start by adding element or template."
+msgstr ""
+
+#: Helpers/Localizations.php:54
+msgid "Custom CSS"
+msgstr ""
+
+#: Helpers/Localizations.php:55
+msgid "Local CSS"
+msgstr ""
+
+#: Helpers/Localizations.php:56
+msgid "Local CSS will be applied to this particular page only"
+msgstr ""
+
+#: Helpers/Localizations.php:57
+msgid "Global CSS"
+msgstr ""
+
+#: Helpers/Localizations.php:58
+msgid "Global CSS will be applied site wide"
+msgstr ""
+
+#: Helpers/Localizations.php:59
+msgid "Custom JavaScript"
+msgstr ""
+
+#: Helpers/Localizations.php:60
+msgid "Local JavaScript"
+msgstr ""
+
+#: Helpers/Localizations.php:61
+msgid "Local JavaScript will be applied to this particular page only"
+msgstr ""
+
+#: Helpers/Localizations.php:62
+msgid "Global JavaScript"
+msgstr ""
+
+#: Helpers/Localizations.php:63
+msgid "Global JavaScript will be applied site wide"
+msgstr ""
+
+#: Helpers/Localizations.php:64
+msgid "Save"
+msgstr ""
+
+#: Helpers/Localizations.php:65
+msgid "Template Name"
+msgstr ""
+
+#: Helpers/Localizations.php:66
+msgid "Save Template"
+msgstr ""
+
+#: Helpers/Localizations.php:67
+msgid "Remove Template"
+msgstr ""
+
+#: Helpers/Localizations.php:68
+msgid "Template save failed"
+msgstr ""
+
+#: Helpers/Localizations.php:69
+msgid "Download More Templates"
+msgstr ""
+
+#: Helpers/Localizations.php:72
+msgid ""
+"You don't have any templates yet. Try to save your current layout as a "
+"template or download templates from Visual Composer Hub."
+msgstr ""
+
+#: Helpers/Localizations.php:76
+msgid ""
+"Didn't find the right template? Check out Visual Composer Hub for more "
+"layout templates."
+msgstr ""
+
+#: Helpers/Localizations.php:79
+msgid "Do you want to remove this template?"
+msgstr ""
+
+#: Helpers/Localizations.php:80
+msgid "Failed to remove template"
+msgstr ""
+
+#: Helpers/Localizations.php:81
+msgid "Select Blank Page"
+msgstr ""
+
+#: Helpers/Localizations.php:82
+msgid "or Start With a template"
+msgstr ""
+
+#: Helpers/Localizations.php:85 Helpers/Localizations.php:100
+msgid ""
+"Get a Premium license to access Visual Composer Hub. Download professionally "
+"designed templates, more content elements, extensions, and more."
+msgstr ""
+
+#: Helpers/Localizations.php:90
+msgid ""
+"Didn't find a perfect template? Get a Premium license to download it from "
+"Visual Composer Hub."
+msgstr ""
+
+#: Helpers/Localizations.php:95
+msgid ""
+"Didn't find an element? Get a Premium license to download the right content "
+"element in Visual Composer Hub."
+msgstr ""
+
+#: Helpers/Localizations.php:103
+msgid "Add"
+msgstr ""
+
+#: Helpers/Localizations.php:104
+msgid "Row Layout"
+msgstr ""
+
+#: Helpers/Localizations.php:105
+msgid "Edit"
+msgstr ""
+
+#: Helpers/Localizations.php:106
+msgid "Design Options"
+msgstr ""
+
+#: Helpers/Localizations.php:107
+msgid "Clone"
+msgstr ""
+
+#: Helpers/Localizations.php:108
+msgid "Copy"
+msgstr ""
+
+#: Helpers/Localizations.php:109
+msgid "Paste"
+msgstr ""
+
+#: Helpers/Localizations.php:110
+msgid "Remove"
+msgstr ""
+
+#: Helpers/Localizations.php:111
+msgid "Move"
+msgstr ""
+
+#: Helpers/Localizations.php:112
+msgid "Search content elements"
+msgstr ""
+
+#: Helpers/Localizations.php:114
+msgid "Template with this name already exist. Please specify another name."
+msgstr ""
+
+#: Helpers/Localizations.php:117
+msgid "There is no content on your page - nothing to save"
+msgstr ""
+
+#: Helpers/Localizations.php:118
+msgid "Enter template name to save your page as a template"
+msgstr ""
+
+#: Helpers/Localizations.php:119
+msgid "Add one column"
+msgstr ""
+
+#: Helpers/Localizations.php:120
+msgid "Add two columns"
+msgstr ""
+
+#: Helpers/Localizations.php:121
+msgid "Add three columns"
+msgstr ""
+
+#: Helpers/Localizations.php:122
+msgid "Add four columns"
+msgstr ""
+
+#: Helpers/Localizations.php:123
+msgid "Add five columns"
+msgstr ""
+
+#: Helpers/Localizations.php:124
+msgid "Add custom row layout"
+msgstr ""
+
+#: Helpers/Localizations.php:125
+msgid "Add Text block"
+msgstr ""
+
+#: Helpers/Localizations.php:126
+msgid "Frontend Editor"
+msgstr ""
+
+#: Helpers/Localizations.php:127
+msgid "Backend Editor"
+msgstr ""
+
+#: Helpers/Localizations.php:128
+msgid "Classic Editor"
+msgstr ""
+
+#: Helpers/Localizations.php:131
+msgid ""
+"Visual Composer will overwrite your content created in WordPress Classic "
+"editor with the latest version of content created in Visual Composer Website "
+"Builder. Do you want to continue?"
+msgstr ""
+
+#: Helpers/Localizations.php:134
+msgid "Blank Page"
+msgstr ""
+
+#: Helpers/Localizations.php:135
+msgid "Search templates by name and description"
+msgstr ""
+
+#: Helpers/Localizations.php:136
+msgid "No Results. Open Visual Composer Hub"
+msgstr ""
+
+#: Helpers/Localizations.php:138
+msgid ""
+"Didn't find the right element? Check out Visual Composer Hub for more "
+"content elements."
+msgstr ""
+
+#: Helpers/Localizations.php:143
+msgid ""
+"Please make sure to read and agree to our terms of service in order to "
+"activate and use Visual Composer Website Builder."
+msgstr ""
+
+#: Helpers/Localizations.php:148
+msgid ""
+"Activation request failed. Invalid e-mail. Please check your e-mail and try "
+"again."
+msgstr ""
+
+#: Helpers/Localizations.php:152
+msgid ""
+"To activate and use Visual Composer Website Builder, you must read and agree "
+"to the terms of service."
+msgstr ""
+
+#: Helpers/Localizations.php:155
+msgid "Your activation request failed. Please try again."
+msgstr ""
+
+#: Helpers/Localizations.php:156
+msgid "Please provide valid e-mail address"
+msgstr ""
+
+#: Helpers/Localizations.php:157 Helpers/Localizations.php:168
+msgid "Nothing found"
+msgstr ""
+
+#: Helpers/Localizations.php:158
+msgid "Add Image"
+msgstr ""
+
+#: Helpers/Localizations.php:159
+msgid "Remove Image"
+msgstr ""
+
+#: Helpers/Localizations.php:160
+msgid "Move Image"
+msgstr ""
+
+#: Helpers/Localizations.php:161
+msgid "Edit or Replace Image"
+msgstr ""
+
+#: Helpers/Localizations.php:162
+msgid "Add Link"
+msgstr ""
+
+#: Helpers/Localizations.php:163
+msgid "Select URL"
+msgstr ""
+
+#: Helpers/Localizations.php:164
+msgid "Insert or Edit Link"
+msgstr ""
+
+#: Helpers/Localizations.php:165 Helpers/Localizations.php:171
+msgid "Enter destination URL"
+msgstr ""
+
+#: Helpers/Localizations.php:166
+msgid "Or link to existing content"
+msgstr ""
+
+#: Helpers/Localizations.php:167
+msgid "Search existing content"
+msgstr ""
+
+#: Helpers/Localizations.php:169
+msgid "Open link in a new tab"
+msgstr ""
+
+#: Helpers/Localizations.php:170
+msgid "Add nofollow option to link"
+msgstr ""
+
+#: Helpers/Localizations.php:172
+msgid "Title attribute will be displayed on link hover"
+msgstr ""
+
+#: Helpers/Localizations.php:173
+#: Modules/Elements/Grids/DataSource/ListOfIdsController.php:73
+#: Modules/Elements/WooCommerce/AutocompleteController.php:49
+msgid "Title"
+msgstr ""
+
+#: Helpers/Localizations.php:174
+msgid "Visual Composer Cloud update failed, please try again"
+msgstr ""
+
+#: Helpers/Localizations.php:175
+msgid "Preview"
+msgstr ""
+
+#: Helpers/Localizations.php:176
+msgid "Preview Changes"
+msgstr ""
+
+#: Helpers/Localizations.php:177
+msgid "Saving Results"
+msgstr ""
+
+#: Helpers/Localizations.php:178
+msgid "Hide: Off"
+msgstr ""
+
+#: Helpers/Localizations.php:179
+msgid "Hide: On"
+msgstr ""
+
+#: Helpers/Localizations.php:180
+msgid "Downloading initial extensions"
+msgstr ""
+
+#: Helpers/Localizations.php:181
+msgid "Downloading assets {i} of {cnt}: {name}"
+msgstr ""
+
+#: Helpers/Localizations.php:182
+msgid "Updating posts {i} in {cnt}: {name}"
+msgstr ""
+
+#: Helpers/Localizations.php:183
+msgid "Failed to load: {file} #10077"
+msgstr ""
+
+#: Helpers/Localizations.php:186
+msgid ""
+"Double tap on an element to open the edit window. Tap and hold to initiate "
+"drag and drop in a Tree view."
+msgstr ""
+
+#: Helpers/Localizations.php:189
+msgid "Template"
+msgstr ""
+
+#: Helpers/Localizations.php:190
+msgid "Default template"
+msgstr ""
+
+#: Helpers/Localizations.php:192
+msgid "To apply a template save changes and reload the page"
+msgstr ""
+
+#: Helpers/Localizations.php:196
+msgid ""
+"To apply a template you will need to save changes and content will be "
+"reloaded."
+msgstr ""
+
+#: Helpers/Localizations.php:200
+msgid "To apply title changes save changes and reload the page"
+msgstr ""
+
+#: Helpers/Localizations.php:203
+msgid "Disable page title"
+msgstr ""
+
+#: Helpers/Localizations.php:205
+msgid ""
+"{name} has been successfully downloaded from the Visual Composer Hub and "
+"added to your library"
+msgstr ""
+
+#: Helpers/Localizations.php:209
+msgid "Failed to download element (license expired or request timed out)"
+msgstr ""
+
+#: Helpers/Localizations.php:212
+msgid "Failed to download element"
+msgstr ""
+
+#: Helpers/Localizations.php:215
+msgid ""
+"It seems that something went wrong with loading content. Please make sure "
+"you are loading correct content and try again."
+msgstr ""
+
+#: Helpers/Localizations.php:218 Helpers/Localizations.php:224
+#: Helpers/Localizations.php:234
+#: resources/views/account/partials/activation-thank-you.php:42
+msgid "Return to WordPress dashboard"
+msgstr ""
+
+#: Helpers/Localizations.php:221
+msgid ""
+"It seems you are trying to edit archive page which displays your post "
+"archive instead of content. Before edit, please make sure to convert it to a "
+"static page via your WordPress admin"
+msgstr ""
+
+#: Helpers/Localizations.php:226
+msgid ""
+"You can replace the {elementLabel} within this element with another "
+"{elementLabel} from your elements"
+msgstr ""
+
+#: Helpers/Localizations.php:230
+#: resources/views/account/partials/activation-thank-you.php:34
+msgid ""
+"We would like to acknowledge that we have received your request and a ticket "
+"has been created. A support representative will be reviewing your request "
+"and will send you a personal response."
+msgstr ""
+
+#: Helpers/Localizations.php:238
+#: resources/views/account/partials/activation-thank-you.php:29
+msgid "Thank You!"
+msgstr ""
+
+#: Helpers/LoginCategory.php:21
+msgid "Business"
+msgstr ""
+
+#: Helpers/LoginCategory.php:22
+msgid "Blog"
+msgstr ""
+
+#: Helpers/LoginCategory.php:23
+msgid "Creative Arts"
+msgstr ""
+
+#: Helpers/LoginCategory.php:24
+msgid "Community & Education"
+msgstr ""
+
+#: Helpers/LoginCategory.php:25
+msgid "Design"
+msgstr ""
+
+#: Helpers/LoginCategory.php:26
+msgid "Entertainment & Music"
+msgstr ""
+
+#: Helpers/LoginCategory.php:27
+msgid "Events"
+msgstr ""
+
+#: Helpers/LoginCategory.php:28
+msgid "Fashion & Beauty"
+msgstr ""
+
+#: Helpers/LoginCategory.php:29
+msgid "Health & Wellness"
+msgstr ""
+
+#: Helpers/LoginCategory.php:30
+msgid "Landing Pages"
+msgstr ""
+
+#: Helpers/LoginCategory.php:31
+msgid "Online Store"
+msgstr ""
+
+#: Helpers/LoginCategory.php:32
+msgid "Photography"
+msgstr ""
+
+#: Helpers/LoginCategory.php:33
+msgid "Portfolio & Personal"
+msgstr ""
+
+#: Helpers/LoginCategory.php:34
+msgid "Restaurants & Food"
+msgstr ""
+
+#: Helpers/LoginCategory.php:35
+msgid "Services"
+msgstr ""
+
+#: Helpers/LoginCategory.php:36
+msgid "Travel & Accommodation"
+msgstr ""
+
+#: Helpers/LoginCategory.php:37
+msgid "Other"
+msgstr ""
+
+#: Helpers/PostType.php:229
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: Helpers/PostsGridSourcePosts.php:38
+msgid "All"
+msgstr ""
+
+#: Helpers/Settings/Pages/About.php:25
+msgid "Set up your own navigation position or change it at any time."
+msgstr ""
+
+#: Helpers/Settings/Pages/About.php:29
+msgid ""
+"Access and see the path to your elements, columns, and rows from one control."
+msgstr ""
+
+#: Helpers/Settings/Pages/About.php:33
+msgid "Use inline text editing to change content with one click."
+msgstr ""
+
+#: Helpers/Settings/Pages/About.php:37
+msgid "Control and overview your page structure from the Tree View mode."
+msgstr ""
+
+#: Helpers/Settings/Pages/About.php:41
+msgid "Divide your row into columns with Row layout and pre-made layouts."
+msgstr ""
+
+#: Helpers/Settings/Pages/About.php:45
+msgid "Apply changes instantly and revert back with Undo/Redo at any time."
+msgstr ""
+
+#: Helpers/Settings/Pages/About.php:49
+msgid "Resize columns with easy to use resize tool."
+msgstr ""
+
+#: Helpers/Settings/Pages/About.php:53
+msgid "Choose Backend editor schematic view with the quick preview option."
+msgstr ""
+
+#: Helpers/Token.php:178
+#, php-format
+msgid "Your Visual Composer Website Builder License will expire soon - %s"
+msgstr ""
+
+#: Helpers/Token.php:210
+msgid "Token generation failed"
+msgstr ""
+
+#: Helpers/Token.php:218
+msgid "Request timeout of 30 seconds exceeded #10011"
+msgstr ""
+
+#: Modules/Account/ActivationController.php:96
+msgid "Failed to get activation token #10013"
+msgstr ""
+
+#: Modules/Account/ActivationController.php:118
+#, php-format
+msgid "Activation failed. Please wait %1$s seconds before you try again #10016"
+msgstr ""
+
+#: Modules/Account/AddonsActivationController.php:82
+#, php-format
+msgid "Activation failed. Please wait %1$s seconds before you try again #10017"
+msgstr ""
+
+#: Modules/Account/Pages/ActivationPage.php:83
+msgid "Activation"
+msgstr ""
+
+#: Modules/Account/SubscribeController.php:66
+msgid "Failed to activate free version #10018"
+msgstr ""
+
+#: Modules/Assets/SharedDownloadController.php:113
+msgid "Failed to update shared libraries #10021"
+msgstr ""
+
+#: Modules/Editors/Backend/MetaboxController.php:73
+msgid "Visual Composer Website Builder"
+msgstr ""
+
+#: Modules/Editors/EditPostLinks/Controller.php:90
+#: Modules/Editors/EditPostLinks/Controller.php:122
+#: Modules/Editors/EditPostLinks/Controller.php:123
+#: Modules/Editors/EditPostLinks/Controller.php:146
+msgid "Edit with Visual Composer"
+msgstr ""
+
+#: Modules/Editors/EditorFilesDownloadController.php:63
+msgid "Failed to update editor #10027"
+msgstr ""
+
+#: Modules/Editors/Settings/TemplateFilterController.php:43
+msgid "Blank page"
+msgstr ""
+
+#: Modules/Editors/Templates/TemplatesDownloadController.php:381
+msgid "Failed to update templates #10032"
+msgstr ""
+
+#: Modules/Elements/Grids/DataSource/ListOfIdsController.php:73
+#: Modules/Elements/WooCommerce/AutocompleteController.php:48
+#: Modules/Elements/WooCommerce/AutocompleteController.php:85
+msgid "Id"
+msgstr ""
+
+#: Modules/Elements/WooCommerce/AutocompleteController.php:51
+msgid "Sku"
+msgstr ""
+
+#: Modules/Elements/WooCommerce/AutocompleteController.php:86
+msgid "Name"
+msgstr ""
+
+#: Modules/Elements/WooCommerce/AutocompleteController.php:87
+msgid "Slug"
+msgstr ""
+
+#: Modules/Hub/Download/Actions/Traits/Action.php:60
+msgid "Bundle size is too small #10062"
+msgstr ""
+
+#: Modules/Hub/Download/Actions/Traits/Action.php:79
+msgid "Bundle checksum doesn't match #10064"
+msgstr ""
+
+#: Modules/Hub/Download/CategoriesUpdater.php:70
+msgid "Failed to update categories #10037"
+msgstr ""
+
+#: Modules/Hub/Download/ElementDownloadController.php:52
+msgid "Bad response from hub:action #10078"
+msgstr ""
+
+#: Modules/Hub/Download/ElementDownloadController.php:57
+msgid "Failed to download bundle #10079"
+msgstr ""
+
+#: Modules/Hub/Download/ElementDownloadController.php:64
+msgid "Failed to download bundle"
+msgstr ""
+
+#: Modules/Hub/Download/ElementDownloadController.php:131
+msgid "Failed to find element in hub #10042"
+msgstr ""
+
+#: Modules/Hub/Download/ElementDownloadController.php:147
+msgid "Failed to read remote element bundle json #10043"
+msgstr ""
+
+#: Modules/Hub/Download/ElementsUpdater.php:74
+msgid "Failed to update elements #10046"
+msgstr ""
+
+#: Modules/Hub/Download/GroupsUpdater.php:62
+msgid "Failed to update groups #10051"
+msgstr ""
+
+#: Modules/Hub/Download/JsonActionsController.php:47
+msgid "Failed to process required actions #10056"
+msgstr ""
+
+#: Modules/Hub/Download/JsonActionsController.php:118
+#, php-format
+msgid "Failed to download %1$s #10058"
+msgstr ""
+
+#: Modules/Hub/Download/JsonDownloadController.php:44
+msgid "Failed to download json #10059"
+msgstr ""
+
+#: Modules/Hub/Download/JsonDownloadController.php:54
+msgid "Failed to prepare json download #10060"
+msgstr ""
+
+#: Modules/Hub/TemplateTeasers/TemplatesUpdater.php:177
+msgid "Failed to update templates #10065"
+msgstr ""
+
+#: Modules/License/LicenseController.php:101
+msgid "License activation failed"
+msgstr ""
+
+#: Modules/License/LicenseController.php:106
+msgid "Invalid token -> Failed licence activation - Invalid token"
+msgstr ""
+
+#: Modules/License/LicenseController.php:161
+msgid "Failed licence de-activation #10070"
+msgstr ""
+
+#: Modules/License/LicenseController.php:170
+msgid "Invalid license deactivation token #10071"
+msgstr ""
+
+#: Modules/License/Pages/DeactivateLicense.php:64
+msgid "Visual Composer account"
+msgstr ""
+
+#: Modules/License/Pages/DeactivateLicense.php:68
+#, php-format
+msgid ""
+"You can deactivate your premium license on this site via your %s. You will "
+"not be able to receive new premium updates, elements and templates."
+msgstr ""
+
+#: Modules/License/Pages/DeactivateLicense.php:79
+msgid "Deactivate Premium"
+msgstr ""
+
+#: Modules/Settings/Controller.php:119
+msgid "Visual Composer "
+msgstr ""
+
+#: Modules/Settings/FactoryResetController.php:63
+msgid "Proceed with a factory reset?"
+msgstr ""
+
+#: Modules/Settings/FactoryResetController.php:64
+msgid "initiate factory reset"
+msgstr ""
+
+#: Modules/Settings/FactoryResetController.php:67
+#, php-format
+msgid ""
+"Overwrite your existing extensions and assets with the latest versions from "
+"Visual Composer Cloud service - %s."
+msgstr ""
+
+#: Modules/Settings/FactoryResetController.php:75
+msgid "Factory Reset"
+msgstr ""
+
+#: Modules/Settings/FactoryResetController.php:85
+msgid "Wrong permissions #10072"
+msgstr ""
+
+#: Modules/Settings/FactoryResetController.php:90
+msgid "Session expired #10073"
+msgstr ""
+
+#: Modules/Settings/NoticeController.php:73
+msgid "Dismiss"
+msgstr ""
+
+#: Modules/Settings/Pages/About.php:80
+msgid "About"
+msgstr ""
+
+#: Modules/Settings/Pages/PostTypes.php:64
+msgid ""
+"Specify post types where you want to use Visual Composer Website Builder."
+msgstr ""
+
+#: Modules/Settings/Pages/PostTypes.php:69
+msgid "Post Types"
+msgstr ""
+
+#: Modules/Updates/UpdatesController.php:134
+msgid ""
+"\n"
+"<p>Visual Composer Website Builder is a perfect solution to create your "
+"WordPress site via drag and drop interface. Use content elements or "
+"predefined layouts to create any layout fast and easy.</p>\n"
+"<ul>\n"
+"<li>Use Frontend, Backend or Tree View to create structure</li>\n"
+"<li>Create responsive websites automatically</li>\n"
+"<li>Use with any WordPress theme</li>\n"
+"<li>Work with pages, posts and custom post types</li>\n"
+"<li>Access content elements and WordPress widgets</li>\n"
+"<li>Integrate any 3rd party shortcode easily</li>\n"
+"<li>Apply predefined pro quality templates</li>\n"
+"<li>Control look of elements via multiple parameters and rich design "
+"options</li>\n"
+"<li>Receive high-quality code optimized for SEO</li>\n"
+"</ul>"
+msgstr ""
+
+#: Modules/Updates/UpdatesController.php:160
+msgid "Failed to get changelog"
+msgstr ""
+
+#: resources/views/account/partials/activation-go-premium.php:44
+msgid "Get Premium Elements, Templates, and Support."
+msgstr ""
+
+#: resources/views/account/partials/activation-go-premium.php:46
+msgid "About Premium"
+msgstr ""
+
+#: resources/views/account/partials/activation-go-premium.php:49
+msgid "Activate Premium"
+msgstr ""
+
+#: resources/views/account/partials/activation-go-premium.php:52
+msgid ""
+"Unlock the most powerful and simplest way to create a professional website "
+"for your business."
+msgstr ""
+
+#: resources/views/account/partials/activation-intro.php:28
+#: resources/views/account/partials/activation-login-standalone.php:30
+#: resources/views/account/partials/activation-login.php:31
+msgid "Advance Your WordPress With Visual Composer Website Builder"
+msgstr ""
+
+#: resources/views/account/partials/activation-intro.php:30
+msgid "Free Version"
+msgstr ""
+
+#: resources/views/account/partials/activation-intro.php:32
+msgid "Premium Version"
+msgstr ""
+
+#: resources/views/account/partials/activation-layout-loading.php:23
+#, php-format
+msgid ""
+"Activation already in process! Please wait %1$s seconds before you try again"
+msgstr ""
+
+#: resources/views/account/partials/activation-layout.php:86
+msgid "Back"
+msgstr ""
+
+#: resources/views/account/partials/activation-layout.php:156
+#: resources/views/account/partials/activation-oops.php:47
+#: resources/views/editor/frontend/frontend-updating.php:148
+#: resources/views/hub/updating-content.php:121
+msgid "Send error report"
+msgstr ""
+
+#: resources/views/account/partials/activation-loading.php:21
+msgid "Activating your copy ... Please wait."
+msgstr ""
+
+#: resources/views/account/partials/activation-loading.php:24
+msgid "Don’t close this window while activation is in the process."
+msgstr ""
+
+#: resources/views/account/partials/activation-login-standalone.php:35
+#: resources/views/account/partials/activation-login.php:40
+msgid "Select Your Category"
+msgstr ""
+
+#: resources/views/account/partials/activation-login-standalone.php:47
+#: resources/views/account/partials/activation-login.php:52
+#, php-format
+msgid ""
+"I have read and agree to the <a href=\"%1$s\" target=\"_blank\">Terms of "
+"Use</a> and <a href=\"%2$s\"\" target=\"_blank\">Cloud Access Terms</a>"
+msgstr ""
+
+#: resources/views/account/partials/activation-login-standalone.php:53
+#: resources/views/account/partials/activation-login.php:58
+msgid "Activate Now"
+msgstr ""
+
+#: resources/views/account/partials/activation-login.php:36
+msgid "Your E-mail"
+msgstr ""
+
+#: resources/views/account/partials/activation-oops.php:29
+#: resources/views/editor/frontend/frontend-updating.php:131
+#: resources/views/editor/frontend/frontend-updating.php:180
+#: resources/views/hub/updating-content.php:106
+#: resources/views/hub/updating-content.php:153
+msgid "Oops!"
+msgstr ""
+
+#: resources/views/account/partials/activation-oops.php:34
+msgid ""
+"It seems that something went wrong with licence activation. Please make sure "
+"to check your internet connection and try again."
+msgstr ""
+
+#: resources/views/account/partials/activation-oops.php:42
+msgid "Try Again"
+msgstr ""
+
+#: resources/views/account/partials/activation-slider-go-premium.php:33
+#: resources/views/account/partials/activation-slider.php:33
+msgid "Any Layout. Fast and Easy."
+msgstr ""
+
+#: resources/views/account/partials/activation-slider-go-premium.php:48
+#: resources/views/account/partials/activation-slider.php:48
+msgid "Create a blank page"
+msgstr ""
+
+#: resources/views/account/partials/activation-slider-go-premium.php:53
+#: resources/views/account/partials/activation-slider.php:53
+msgid "Create a blank post"
+msgstr ""
+
+#: resources/views/account/partials/activation-slider-go-premium.php:58
+#: resources/views/account/partials/activation-slider.php:58
+msgid ""
+"Want to work with existing pages, posts or custom post types? Access your "
+"content and select `Edit with Visual Composer`."
+msgstr ""
+
+#: resources/views/account/partials/activation-slider-go-premium.php:62
+#: resources/views/account/partials/activation-slider.php:62
+msgid "Don't forget to tweet about Visual Composer Website Builder. Thanks!"
+msgstr ""
+
+#: resources/views/account/partials/activation-slider-go-premium.php:70
+#: resources/views/account/partials/activation-slider.php:70
+msgid ""
+"Visual Composer Website Builder - now I can build any #WordPress site fast "
+"and easy!"
+msgstr ""
+
+#: resources/views/editor/frontend/frontend-updating.php:37
+#: resources/views/editor/frontend/frontend.php:39
+#, php-format
+msgid "Frontend editor: %s"
+msgstr ""
+
+#: resources/views/editor/frontend/frontend-updating.php:96
+#: resources/views/hub/updating-content.php:77
+msgid "We are updating assets from the Visual Composer Cloud ... Please wait."
+msgstr ""
+
+#: resources/views/editor/frontend/frontend-updating.php:100
+#: resources/views/hub/updating-content.php:82
+msgid "Don’t close this window while update is in process."
+msgstr ""
+
+#: resources/views/editor/frontend/frontend-updating.php:135
+#: resources/views/hub/updating-content.php:110
+msgid ""
+"It seems that something went wrong with assets update from the Visual "
+"Composer Cloud. Please make sure to check your internet connection and try "
+"again."
+msgstr ""
+
+#: resources/views/editor/frontend/frontend-updating.php:142
+#: resources/views/hub/updating-content.php:116
+msgid "Retry Update"
+msgstr ""
+
+#: resources/views/editor/frontend/frontend-updating.php:188
+#: resources/views/hub/updating-content.php:161
+#, php-format
+msgid ""
+"The update process was already started! Please wait %1$s seconds before you "
+"try again"
+msgstr ""
+
+#: resources/views/editor/pageEditable/pageEditable.php:8
+msgid "Loading..."
+msgstr ""
+
+#: resources/views/elements/widgets/variables.php:19
+msgid "No Custom widgets found"
+msgstr ""
+
+#: resources/views/elements/widgets/variables.php:36
+msgid "No Widgets found"
+msgstr ""
+
+#: resources/views/settings/pages/index.php:38
+msgid "Save Changes"
+msgstr ""
+
+#: resources/views/settings/pages/plugins/notice.php:14
+#, php-format
+msgid ""
+"You are about to deactivate your copy of Visual Composer Website Builder and "
+"won’t be able to manage your content. Your content remains untouched but due "
+"to plugin deactivation required CSS styles will be missing. To ensure "
+"correct content display use\n"
+"                    <a href=\"%s\">this free plugin</a> that will load CSS "
+"styles automatically."
+msgstr ""
+
+#: resources/views/settings/pages/plugins/notice.php:22
+msgid "Deactivate Visual Composer"
+msgstr ""
+
+#: resources/views/settings/pages/post-types/post-types-toggle.php:20
+msgid "on"
+msgstr ""
+
+#: resources/views/settings/pages/post-types/post-types-toggle.php:21
+msgid "off"
+msgstr ""

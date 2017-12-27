@@ -1,0 +1,400 @@
+/* zzz */
+.cba-label-submit{
+    visibility: hidden !important;
+}
+.cba-filter-hac .select2-container-multi{
+    margin-top: 15px;
+}
+.cba-filter-hac .select2-container-multi,
+.cba-filter-hac .select2-input{
+    width: 100% !important;
+}
+
+.cba-filter-hac .select2-input{
+    width: 100% !important;
+    height: 34px;
+    font-size: 15px !important;
+}
+.cba_hotel_desc{
+    padding: 15px 0;
+}
+.cba_hotel_desc .item-attr{
+    margin: 5px auto;
+}
+.cba-hotel-detail .overlay-form{
+    left:auto;
+    display: none;
+}
+.ajax-filter-wrapper{
+    overflow: hidden;
+}
+.ajax-filter-wrapper .checkbox-filter-ajax{
+    height: 21px;
+    width: 21px;
+    background: transparent;
+    border: 1px solid #ccc;
+    position: relative;
+    float: left;
+    margin-right: 8px;
+    top: 2px;
+}
+.ajax-filter-wrapper .checkbox-filter-ajax .checkbox-yes{
+    display: none;
+}
+.ajax-filter-wrapper .checkbox-filter-ajax:hover{
+    border: 1px solid #ed8323;
+    cursor: pointer;
+}
+.ajax-filter-wrapper .checkbox-filter-ajax.active{
+    background-color: #ed8323;
+    border: 1px solid #ed8323;
+}
+.ajax-filter-wrapper .checkbox-filter-ajax.active .checkbox-yes{
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 19px;
+    font-size: 14px;
+}
+.ajax-filter-wrapper .search_rating_star{
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+.ajax-filter-wrapper .ajax-tax-name{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#cba-filter-city{
+    margin-top: 10px;
+    position: relative;
+}
+#cba-filter-city .cba-list-city{
+    overflow: hidden;
+    max-height: 223px;
+    overflow-y: auto;
+}
+#cover-list-city {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(255,255,255,0.4);
+    top: 0;
+    left: 0;
+    color: #ed8323;
+    line-height: 0px;
+    z-index: 9999;
+    text-align: center;
+    display: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+#cover-list-city .over-starttime-helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+#cover-list-city img {
+    vertical-align: middle;
+    width: 35px;
+}
+#cba-list-amnity{
+    overflow: hidden;
+    max-height: 504px;
+    overflow-y: auto;
+}
+.cba-date input{
+    background: #fff !important;
+}
+.cba-date .form-group .input-icon{
+    height: 33px;
+    line-height: 36px;
+}
+.cba-load-more{
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.cba-show-price{
+    display: none;
+}
+/*.cba-select-rooms{
+    height: 34px;
+    border-radius: 5px;
+    margin-bottom: 1px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.cba-select-rooms:focus{
+    border: 1px solid darkorange;
+}*/
+/* CREDIT CARD */
+.cba-payment-menthod{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.cba-payment-menthod .form-group{
+    margin-bottom: 5px;
+}
+.cba-credit-card-type ul{
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.cba-credit-card-type ul li{
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.cba-credit-card-type ul li.active{
+    border: 2px solid #ed8323;
+}
+.cba-credit-card-type ul li img{
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+}
+.cba-credit-card-type ul li i{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color:#fff;
+}
+.cba-credit-card-type ul li .cba-credit-check-wraper{
+    display: none;
+}
+.cba-credit-card-type ul li .cba-credit-check{
+    position: absolute;
+    bottom: -19px;
+    right: -9px;
+    height: 50px;
+    width: 25px;
+    background: #ed8323;
+    -webkit-transform: rotate(51deg);
+    -moz-transform: rotate(51deg);
+    -ms-transform: rotate(51deg);
+    -o-transform: rotate(51deg);
+    transform: rotate(51deg);
+}
+.cba-credit-card-type ul li.active .cba-credit-check-wraper{
+    display: block;
+}
+.cba-credit-card-type ul li.active img{
+    border: none;
+}
+.cba-form-ds{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.cba-form-date{
+    width: 60%;
+    float: left;
+}
+.cba-form-date .form-control{
+    display: inline-block;
+    width: 40% !important;
+}
+.cba-form-holder-name{
+    text-align: center;
+}
+.cba-form-holder-name label{
+    text-align: left;
+}
+.cba-form-holder-name span{
+    margin-top: 6px;
+    display: inline-block;
+}
+.cba-form-holder-name .form-control{
+    display: inline-block;
+    width: 48% !important;
+}
+.cba-form-holder-name .form-control{
+    float: left;
+}
+.cba-form-holder-name .form-control:last-child{
+    float: right;
+}
+.cba-form-secure{
+    float: left;
+    width: 30%;
+}
+.cba-form-secure .form-control{
+
+}
+.cba-form-modal .cba-add-extra-info input.form-control[type="checkbox"]{
+    float: left;
+    width: auto !important;
+    margin-top: 26px;
+    margin-right: 10px;
+}
+.cba-form-modal .cba-add-extra-info label{
+    float: left;
+    margin-top: 31px;
+}
+
+/* Submit form checkout */
+.cba-btn-st-checkout-submit i{
+    display: none;
+}
+
+/* Booking list */
+.booking-list{
+    margin-bottom: 0px;
+}
+.booking-list>li:last-child{
+    margin-bottom: 0px;
+}
+/* modalCBACheckOut */
+#modalCBACheckOut .overlay-form{
+    width: 100%;
+    display: none;
+}
+#modalCBARoomDetail .overlay-form{
+    left:auto;
+}
+
+/* Condition room */
+.cba-room-conditions{
+    margin-top: 15px;
+}
+.cba-room-conditions table{
+    border: none;
+}
+.cba-room-conditions table tr td,
+.cba-room-conditions table tr th{
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+.cba-room-conditions table tr th{
+    border-bottom: 2px solid #ccc;
+}
+.cba-room-conditions table tr.cba-condition-detail{
+    border-bottom: 2px solid #ccc;
+    display: none;
+}
+.cba-condition-push{
+    cursor: pointer;
+}
+.cba-room-conditions table tr.cba-condition-detail td{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cba-home-amenity{
+    max-height: 300px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+/* Home search form */
+.cba-search-advance .overlay-form{
+    display: none;
+    left:auto;
+}
+#cba-home-city-alert{
+    display: none;
+}
+.btn_cba_load_more_history_book i{
+    display: none;
+}
+
+#cba-list-amnity{
+    max-height: 315px;
+}
+.cba-booking-history-status strong{
+    margin-bottom: 5px;
+    display: block;
+}
+
+.cba-bht-thumb{
+    margin-bottom: 10px;
+    display: block;
+    height:70px;
+    width: auto;
+}
+#modalCBAModifyBooking{
+    z-index: 99999;
+}
+
+
+/* Responsive */
+@media (max-width: 767px) {
+    .cba-search-country{
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 991px) {
+    .cba-label-submit{
+        display: none;
+    }
+}
+
+/* SQUARED TWO */
+.hcsb_container .hcsb_outer .hcsb_noDate {
+    width: 20px;
+    height: 20px;
+    background: transparent !important;
+    margin: 20px auto;
+    position: relative;
+}
+
+.cba-room-conditions-modify{
+    padding: 15px;
+}
+.cba-room-conditions-modify tr td{
+    padding: 5px 0;
+}
+.cba-room-conditions-modify tr td select{
+    float: right;
+    padding: 5px;
+}
+.cba-cancel-booking{
+    margin-bottom: 5px;
+}
+.cba-cancel-booking{
+
+}
+.cba-modify-booking{
+
+}
+#modalCBAModifyBooking .overlay-form{
+    left: auto;
+}
+
+.booking-item-new-info{
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+}
+.booking-item-new-info li{
+    width: 100%;
+    overflow: hidden;
+    font-size: 12px;
+    border-bottom: 1px dashed #d9d9d9;
+}
+.booking-item-new-info li .booking-item-payment-price-title {
+    float: left;
+    margin: 0;
+}
+.booking-item-new-info li .booking-item-payment-price-amount {
+    float: right;
+}
+#ccond h5{
+    padding: 0 15px;
+}
+#load_rates_data{
+    margin-bottom: 10px;
+}

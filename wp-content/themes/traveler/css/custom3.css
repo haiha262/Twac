@@ -1,0 +1,216 @@
+/* Single Room */
+.hotel-room-form .alert{
+    margin-top: 10px;
+}
+#single-room .room-facility{
+    margin-bottom: 20px;
+}
+#single-room .calendar-wrapper{
+    margin-top: 10px;
+}
+.vc_custom_1439366124092{
+    padding-top: 0 !important;
+}
+.comments-area .alert{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+#btn-booking-now{
+    position: fixed;
+    bottom: 80px;
+    z-index: 999999;
+    border-radius: 3px !important;
+    display: none;
+    right: 15px;
+}
+
+
+.hotel-room-form:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+@media screen and (min-width: 993px) {
+    #btn-booking-now{
+        display: none !important;
+    }
+}
+
+/* Responsive */
+@media screen and (max-width: 992px) {
+    #single-room .title {
+        margin-top: 10px;
+    }
+    #btn-booking-now{
+        display: block;
+    }
+}
+.single-room-form{
+    position: relative;
+}
+/* Custom price for extra service */
+#form-booking-room-over{
+    display: none;
+    z-index: 99999;
+    position: absolute;
+    top: 0;
+    left:0;
+    background: rgba(255,255,255,0.7);
+    height:100%;
+    width: 100%;
+    text-align: center;
+}
+.over-helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+#form-booking-room-over img{
+    vertical-align: middle;
+    width: 35px;
+}
+.sroom-extra-service .well{
+    background: transparent;
+    margin-bottom: 0px;
+    box-shadow: none;
+    margin-top: 10px;
+    padding: 3px;
+}
+.sroom-extra-service .well .extra-price table.table{
+    margin-bottom: 0px;
+}
+.accordion-toggle:after {
+    font-family: 'FontAwesome';
+    content: "\f054";
+    float: right;
+}
+.accordion-toggle.collapsed:after {
+    content: "\f078";
+}
+.stour-accor{
+    margin-bottom: 15px;
+}
+.stour-accor .accordion-toggle{
+    text-decoration: none;
+    padding: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    display: block;
+}
+.stour-accor .accordion-inner{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-top: 0pc;
+}
+.stour-accor .accordion-group{
+    margin-bottom: 10px;
+}
+.stour-required-extra{
+    color: #cc0000;
+    font-weight: bold;
+}
+.stour-required-extra span{
+    position: relative;
+    top: 2px;
+}
+
+/* Hotels Combined */
+.hcsb_container .hcsb_outer h2.hcsb_topTitle{
+    font-weight: normal !important;
+    padding-top: 0px !important;
+    margin-top: 5px !important;
+    margin-bottom: 15px !important;
+}
+.hcsb_container .hcsb_outer{
+    padding: 0 !important;
+}
+.hcsb_container .hcsb_outer .hcsb_poweredBy{
+    top: 0 !important;
+}
+.hcsb_container .hcsb_outer .hcsb_citySearchWrapper {
+    padding-bottom: 2em !important;
+}
+.hcsb_container .hcsb_outer .hcsb_guests,
+.hcsb_container .hcsb_outer .hcsb_checkinDay,
+.hcsb_container .hcsb_outer .hcsb_checkinMonth,
+.hcsb_container .hcsb_outer .hcsb_checkoutDay,
+.hcsb_container .hcsb_outer .hcsb_checkoutMonth{
+    line-height: 2em !important;
+    height:3em !important;
+}
+.hcsb_container .hcsb_outer .hcsb_checkinDateContent img,
+.hcsb_container .hcsb_outer .hcsb_checkoutDateContent img{
+    top: 0.6em !important;
+}
+.hcsb_container .hcsb_outer .hcsb_noDatesWrapper {
+    bottom: 4em !important;
+}
+.hcsb_container .hcsb_outer a.hcsb_searchButton,
+.hcsb_container .hcsb_outer a.hcsb_searchButton:hover {
+    margin-top: 5.75em !important;
+}
+.hcsb_container .hcsb_outer .hcsb_noDate {
+    position: relative !important;
+    top: 5px !important;
+}
+.hcsb_container .hcsb_outer{
+
+}
+.hcsb_container .hcsb_outer{
+
+}
+.hcsb_container .hcsb_outer{
+
+}
+@media (max-width: 1199px) {
+    .hcsb_container .hcsb_outer .hcsb_noDatesWrapper {
+        bottom: 0em !important;
+    }
+    .hcsb_container .hcsb_outer a.hcsb_searchButton, .hcsb_container .hcsb_outer a.hcsb_searchButton:hover {
+        margin-top: 0.75em !important;
+    }
+}
+/* End hotelcombined css */
+
+/* CSS for booking.com */
+.bookingaff iframe .searchheader__container{
+    font-size: 21px !important;
+    margin-bottom: 13px !important;
+    color: #565656 !important;
+}
+.bookingaff iframe .searchbox__wrapper{
+    padding: 10px 5px !important;
+    border-radius: 0px !important;
+    border: 1px solid #dfdfdf !important;
+}
+
+.bookingaff iframe .searchbox__wrapper .searchbox__inp {
+    font-size: 18px !important;
+    color: #565656 !important;
+}
+
+.bookingaff iframe .ui-autocomplete.ui-menu .ui-menu-item a {
+    font-size: 15px !important;
+}
+
+.bookingdc-age-children{
+    margin-top: 10px;
+}
+.bookingdc-age-children select{
+    padding: 2px;
+    margin-right: 5px;
+}
+/* End CSS for booking.com */
+
+/* SQUARED TWO */
+.hcsb_container .hcsb_outer .hcsb_noDate {
+    width: 20px;
+    height: 20px;
+    background: transparent !important;
+    margin: 20px auto;
+    position: relative;
+}
+

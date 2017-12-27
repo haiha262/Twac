@@ -1,0 +1,433 @@
+/* calendar */
+#jbs-booking-calendar-wrap {
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+.jbs-booking-calendar {
+    width: 100%;
+    background: #fff;
+    border-spacing: 4px 0; }
+.jbs-booking-calendar thead th {
+    background: #fff;
+    padding: 5px 2px;
+    color: #999;
+    text-align: left;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 11px; }
+.jbs-booking-calendar td {
+    width: 14.285%;
+    vertical-align: top;
+    padding: 5px; }
+.jbs-booking-calendar tbody td {
+    text-align: center;
+    height: 156px;
+    background: #fff;
+    /* border-top: 4px solid #f1f1f1; */
+    border-top: 4px solid #ccc;
+    -webkit-transition: height 400ms ease;
+    -moz-transition: height 400ms ease;
+    -o-transition: height 400ms ease;
+    -ms-transition: height 400ms ease;
+    transition: height 400ms ease;
+    /* &:hover{
+        background: #f6e9f0;
+      } */ }
+.jbs-booking-calendar tbody td.has-schedule-booking {
+    border: 2px solid #f63369; }
+.jbs-booking-calendar tbody td.has-schedule-booking h3 span {
+    color: #cc0000;
+    font-size: 25px; }
+.jbs-booking-calendar tbody tr.expanded td {
+    height: 600px !important; }
+.jbs-booking-calendar tbody tr.closed td {
+    height: 20px !important; }
+.jbs-booking-calendar tbody td.owb-booking-calendar-day-container {
+    background: #fafafa; }
+.jbs-booking-calendar tbody td.owb-booking-calendar-day-container.current-month {
+    background: #fff; }
+.jbs-booking-calendar tbody td.owb-booking-calendar-day-container.today {
+    background: #e8f8ff; }
+
+.jbs-booking-calendar-expand-week {
+    width: 5px !important; }
+
+td.jbs-booking-calendar-expand-week {
+    border-top: 4px solid #fff !important;
+    background: #b2c0d6 !important;
+    padding: 4px !important;
+    cursor: pointer;
+    -webkit-transition: background-color 150ms linear;
+    -moz-transition: background-color 150ms linear;
+    -o-transition: background-color 150ms linear;
+    -ms-transition: background-color 150ms linear;
+    transition: background-color 150ms linear; }
+td.jbs-booking-calendar-expand-week:hover {
+    background: #a2cfeb !important; }
+
+/* ====== Action Bar ====== */
+#jbs-booking-calendar-action-bar {
+    background: #fff;
+    padding: 7px; }
+#jbs-booking-calendar-action-bar a {
+    text-decoration: none;
+    box-shadow: none !important; }
+
+.jbs-booking-calendar-action {
+    cursor: pointer; }
+
+#jbs-booking-calendar-action-bar span {
+    padding: 5px;
+    display: inline-block; }
+
+.jbs-booking-calendar-action-current-date {
+    font-size: 15px;
+    color: #255284; }
+.jbs-booking-calendar-action-current-date select {
+    width: 150px;
+    box-shadow: none;
+    border-radius: 3px; }
+.jbs-booking-calendar-action-current-date button {
+    border: none !important;
+    background: #fff !important;
+    box-shadow: none !important;
+    outline: none !important; }
+
+#jbs-booking-calendar-action-select-date-submit {
+    background: #fff;
+    border-radius: 50%;
+    border: 2px solid #0073aa;
+    color: #0073aa;
+    padding: 0 !important;
+    cursor: pointer; }
+#jbs-booking-calendar-action-select-date-submit:hover {
+    border: 2px solid #009ce4;
+    color: #009ce4; }
+
+#jbs-booking-calendar-fast-search {
+    float: right;
+    width: 230px;
+    border-radius: 3px;
+    box-shadow: none; }
+
+input#jbs-booking-calendar-fast-search::-webkit-input-placeholder, input#jbs-booking-calendar-fast-search:-moz-placeholder, input#jbs-booking-calendar-fast-search:-ms-input-placeholder {
+    color: #bbb; }
+
+.jbs-booking-calendar .jbs-booking-calendar-day {
+    color: #656565;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left; }
+
+.jbs-booking-calendar .bookings {
+    height: calc(100% - 20px);
+    overflow-y: auto; }
+
+/* ====== Single Booking in calendar PLAIN STYLE ====== */
+/*.owb-booking-calendar-single-booking {
+    margin       : 3px 0;
+    border-left  : 3px solid #a7a3a2;
+    padding-left : 4px;
+}
+
+.owb-booking-calendar-single-booking.unpaid {
+    border-color : #a7a3a2;
+}
+
+.owb-booking-calendar-single-booking.paid {
+    border-color : #21C32E;
+}
+
+.owb-booking-calendar-single-booking.complete {
+    border-color : #2ea2cc;
+}
+
+.owb-booking-calendar-single-booking.cancelled {
+    border-color : #e00030;
+}
+
+.owb-booking-calendar-single-booking-title a {
+    color : #2A72B5;
+}
+
+.owb-booking-calendar-single-booking-title h3 {
+    font-size   : 11px;
+    font-weight : 600;
+    margin      : 0;
+    color       : #2A72B5;
+}*/
+/* ====== Single Booking in calendar ====== */
+.jbs-booking-calendar-single-booking {
+    margin: 1px 2px;
+    background: #898584;
+    border-radius: 2px;
+    padding: 4px 8px;
+    color: #fff;
+    cursor: default !important;
+    -webkit-transition: background-color 150ms linear;
+    -moz-transition: background-color 150ms linear;
+    -o-transition: background-color 150ms linear;
+    -ms-transition: background-color 150ms linear;
+    transition: background-color 150ms linear; }
+.jbs-booking-calendar-single-booking.unpaid {
+    background: #898584; }
+.jbs-booking-calendar-single-booking.paid {
+    background: #21c32e; }
+.jbs-booking-calendar-single-booking.completed {
+    background: #d67b00; }
+.jbs-booking-calendar-single-booking.cancelled {
+    background: #e00030; }
+.jbs-booking-calendar-single-booking.pending-confirm {
+    background: #cbbe00; }
+.jbs-booking-calendar-single-booking.confirmed {
+    background: #2ea2cc; }
+.jbs-booking-calendar-single-booking.unconfirmed {
+    background: #333; }
+.jbs-booking-calendar-single-booking:hover, .jbs-booking-calendar-single-booking.owb-hover {
+    background: #bebab9; }
+.jbs-booking-calendar-single-booking.unpaid:hover, .jbs-booking-calendar-single-booking.unpaid.owb-hover {
+    background: #bebab9; }
+.jbs-booking-calendar-single-booking.paid:hover, .jbs-booking-calendar-single-booking.paid.owb-hover {
+    background: #28ec35; }
+.jbs-booking-calendar-single-booking.completed:hover, .jbs-booking-calendar-single-booking.completed.owb-hover {
+    background: #dea035; }
+.jbs-booking-calendar-single-booking.cancelled:hover, .jbs-booking-calendar-single-booking.cancelled.owb-hover {
+    background: #f03; }
+.jbs-booking-calendar-single-booking.pending-confirm:hover, .jbs-booking-calendar-single-booking.pending-confirm.owb-hover {
+    background: #e3cd3b; }
+.jbs-booking-calendar-single-booking.confirmed:hover, .jbs-booking-calendar-single-booking.confirmed.owb-hover {
+    background: #37cafd; }
+.jbs-booking-calendar-single-booking.unconfirmed:hover, .jbs-booking-calendar-single-booking.unconfirmed.owb-hover {
+    background: #515151; }
+
+.jbs-booking-calendar-single-booking-title .jbs-booking-calendar-single-booking-action {
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+    float: right;
+    display: none;
+    cursor: pointer;
+    margin-left: 2px; }
+
+.jbs-booking-calendar-single-booking:hover .jbs-booking-calendar-single-booking-title .jbs-booking-calendar-single-booking-action {
+    display: block; }
+
+.jbs-booking-calendar-single-booking-title .jbs-booking-calendar-single-booking-action:hover {
+    color: #000;
+    text-decoration: none; }
+
+.jbs-booking-calendar-single-booking-title h3 {
+    font-size: 11px;
+    font-weight: 600;
+    margin: 0;
+    color: #fff; }
+
+.jbs-booking-calendar-single-booking-data {
+    font-size: 11px;
+    color: #fff;
+    display: none; }
+.jbs-booking-calendar-single-booking-data a {
+    color: #fff;
+    font-weight: 600; }
+
+.nav-calendar {
+    padding: 5px 0 10px 0;
+    overflow: hidden; }
+.nav-calendar a {
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 1px;
+    float: left; }
+.nav-calendar .currentcalendar {
+    font-weight: bold;
+    /*float: right;*/
+    font-size: 20px;
+    color: #cc0000;
+    margin: 10px 0; }
+.nav-calendar .currentcalendar small {
+    color: #000;
+    font-weight: normal;
+    font-size: 15px; }
+.nav-calendar form {
+    display: inline-block;
+    margin-top: -10px; }
+
+.booking-calendar-service {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 99999;
+    min-height: 2000px;
+    /*padding: 50px;*/
+    box-sizing: border-box; }
+.booking-calendar-service .booking-calendar-service-content {
+    position: relative;
+    width: 75%;
+    background: #fff;
+    display: block;
+    margin: auto;
+    padding: 15px;
+    min-height: 600px; }
+.booking-calendar-service .booking-calendar-service-content .calendar-close {
+    position: absolute;
+    top: 3px;
+    right: 4px;
+    font-size: 25px;
+    font-weight: bold;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    cursor: pointer; }
+.booking-calendar-service .booking-calendar-service-content h3 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 13px;
+    margin: 0;
+    margin-bottom: 10px; }
+.booking-calendar-service .booking-calendar-service-content table#calendar-table {
+    border-collapse: collapse;
+    width: 100%; }
+.booking-calendar-service .booking-calendar-service-content table#calendar-table tr th {
+    border: 1px solid #dfdfdf;
+    padding: 7px;
+    text-align: left; }
+.booking-calendar-service .booking-calendar-service-content table#calendar-table tr td {
+    padding: 7px;
+    border: 1px solid #dfdfdf; }
+
+.jbs-booking-calendar-day-container.other-month{
+    opacity: 0.4;
+}
+
+/* Calendar vertical */
+.cba-stats-content .cba-stas-main-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.cba-stats-content .cba-stas-main-table tr{
+    text-align: left;
+}
+.cba-stats-content .cba-stas-main-table tr th{
+    border: 1px solid #dfdfdf;
+    padding: 5px;
+    background: #ccc;
+}
+.cba-stats-content .cba-stas-main-table tr th span{
+    display: block;
+}
+.cba-stats-content .cba-stas-main-table tr td{
+    border: 1px solid #ccc;
+    padding: 7px 2px;
+}
+.cba-stats-content .cba-stas-main-table tr td.n0{
+    background-color: #ccffdd !important;
+    text-align: center;
+}
+.cba-stats-content .cba-stas-main-table tr td.n1{
+    background-color: #fcd207 !important;
+    text-align: center;
+}
+.cba-stats-content .cba-stas-main-table tr td.n2{
+    background-color: #e9a118 !important;
+    text-align: center;
+}
+.cba-stats-content .cba-stas-main-table tr td.n3{
+    background-color: #990000 !important;
+    text-align: center;
+    color:#fff;
+}
+
+.cba-stats-content .cba-stas-main-table tr td.aclass{
+    /* background-color: #2196F3; */
+    background-color: #cc0000;
+    border: 0px;
+    color:#fff;
+    position: relative;
+    cursor: pointer;
+}
+.cba-stats-content .cba-stas-main-table tr td span{
+    position: relative;
+    z-index: 99;
+}
+.cba-stats-content .cba-stas-main-table tr td .arrow-right{
+     width: 0;
+     height: 0;
+     border-top: 15px solid transparent;
+     border-bottom: 15px solid transparent;
+     border-left: 15px solid #2196F3;
+     position: absolute;
+     right: -20px;
+     top: 0;
+     left: 0;
+     z-index: 9;
+ }
+
+.cba-stats-content .cba-stas-main-table tr td .arrow-left{
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #2196F3;
+    position: absolute;
+    right: -20px;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+}
+#cba-stas-hover{
+    width: fit-content;
+    height: auto;
+    background: rgba(0,0,0,0.8);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    color: #fff;
+    padding: 0 10px;
+    display: none;
+    z-index: 999999;
+    position: absolute;
+}
+#cba-stas-hover h4{
+    margin: 10px 0;
+    padding: 0;
+}
+.overlay-form {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background: rgba(255, 255, 255, .6);
+    z-index: 999999;
+    width: -webkit-calc(100% - 30px);
+    width: 100%;
+    left: 0;
+    display: none;
+}
+.overlay-form .fa {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 30px;
+    margin-left: -13px;
+    margin-top: -15px;
+    -webkit-animation: loading 2s 0s linear infinite;
+    -o-animation: loading 2s 0s linear infinite;
+    -moz-animation: loading 2s 0s linear infinite;
+    -ms-animation: loading 2s 0s linear infinite;
+    animation: loading 2s 0s linear infinite;
+}
+
+.input-daterange{
+    display: inline-block;
+}

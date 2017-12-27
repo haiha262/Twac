@@ -1,0 +1,96 @@
+.stour-package{
+	overflow: hidden;
+}
+.stour-package .form-message{
+	margin-bottom: 15px;
+}
+.stour-package .btn-load-hotel{
+	margin-bottom: 20px;
+}
+#stour-list-hotel{
+	position: relative;
+	clear: both;
+	overflow: hidden;
+}
+#stour-list-hotel .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	display: none;
+	background: rgba(255,255,255,0.5);
+}
+#stour-list-hotel .overlay .spinner {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-o-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+#stour-list-hotel .list-content table{
+	margin-bottom: 10px;
+}
+#stour-list-hotel .list-content .check-column{
+	width: 9.2em;
+}
+#stour-list-hotel .list-content .check-column span{
+	position: relative;
+	top: -1px;
+}
+/*#stour-list-hotel .list-content table tr:hover{
+	background: gold;
+}*/
+
+/* Star list */
+.list-content .booking-item-rating-stars{
+	margin: 0;
+}
+.list-content .booking-item-rating-stars li{
+	float: left;
+	margin-right: 5px;
+}
+.list-content .booking-item-rating-stars li i{
+	color: #ed8323;
+}
+.list-custom-hotel{
+	display: block;
+	overflow: hidden;
+	float: left;
+}
+.btn-add-custom-package{
+	height: 25px !important;
+	line-height: 25px !important;
+	min-width: 30px;
+}
+.custom-hotel-data-item .stour-list-custom-hotel{
+	margin-bottom: 10px;
+}
+.custom-hotel-data-item .hotel-del{
+	margin-top: 2px;
+	position: relative;
+	top: 6px;
+	color: #cc0000;
+	font-size: 18px;
+}
+.custom-hotel-data-item .parent-row{
+	display: none;
+}
+.stour-package-tab-content{
+	border: 1px solid #ccc;
+	margin-left: 177px;
+	padding: 20px;
+	overflow: hidden;
+	position: relative;
+}
+.stour-package-tab-content .list-content{
+	float: left;
+	clear: both;
+}
+.stour-package-button{
+	float: right !important;
+	margin-top: 15px !important;
+}
